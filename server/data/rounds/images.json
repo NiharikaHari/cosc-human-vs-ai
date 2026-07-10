@@ -1,0 +1,182 @@
+[
+  {
+    "id": "image-01",
+    "category": "image",
+    "isAI": false,
+    "prompt": "Human photo or AI art?",
+    "content": {
+      "mode": "image",
+      "assetPath": "/media/images/human-kestrel.jpg",
+      "alt": "A Mauritius kestrel perched on a branch"
+    },
+    "explanation": "A real photograph of a Mauritius kestrel taken by wildlife photographer Charles J. Sharp, a Featured Picture on Wikimedia Commons.",
+    "source": {
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Mauritius_kestrel_(Falco_punctatus).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Charles J. Sharp"
+    }
+  },
+  {
+    "id": "image-02",
+    "category": "image",
+    "isAI": true,
+    "prompt": "Human photo or AI art?",
+    "content": {
+      "mode": "image",
+      "assetPath": "/media/images/ai-greenwood-city.jpg",
+      "alt": "A stylized fantasy vista of a hillside estate city"
+    },
+    "explanation": "An AI-generated image titled \"Greenwood Estates Vista City\", created with Midjourney and uploaded to Wikimedia Commons' AI-generated images collection.",
+    "source": {
+      "name": "Wikimedia Commons (Category:AI-generated fantasy and mythology images)",
+      "url": "https://commons.wikimedia.org/wiki/File:%27Greenwood_Estates_Vista_City%27_by_Midjourney.jpg",
+      "license": "CC0",
+      "author": "Dennis Sylvester Hurd (Midjourney)"
+    }
+  },
+  {
+    "id": "image-03",
+    "category": "image",
+    "isAI": false,
+    "prompt": "Human photo or AI art?",
+    "content": {
+      "mode": "image",
+      "assetPath": "/media/images/human-platypus.jpg",
+      "alt": "A duck-billed platypus swimming"
+    },
+    "explanation": "A real photograph of a duck-billed platypus, taken by Charles J. Sharp and featured on Wikimedia Commons.",
+    "source": {
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Duck-billed_platypus_(Ornithorhynchus_anatinus)_Scottsdale.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Charles J. Sharp"
+    }
+  },
+  {
+    "id": "image-04",
+    "category": "image",
+    "isAI": true,
+    "prompt": "Human photo or AI art?",
+    "content": {
+      "mode": "image",
+      "assetPath": "/media/images/ai-mars-dome.jpg",
+      "alt": "A domed city on Mars with forests, fields and lakes inside"
+    },
+    "explanation": "An AI-generated science-fiction concept image made with DALL-E 3, depicting a domed Martian city, uploaded to Wikimedia Commons.",
+    "source": {
+      "name": "Wikimedia Commons (Category:AI-generated science fiction)",
+      "url": "https://commons.wikimedia.org/wiki/File:A_city_on_Mars_under_a_glass_dome_with_forests,_fields,_lakes,_houses.jpg",
+      "license": "Public domain",
+      "author": "DALL·E 3 (uploader: Raresvent)"
+    }
+  },
+  {
+    "id": "image-05",
+    "category": "image",
+    "isAI": false,
+    "prompt": "Human photo or AI art?",
+    "content": {
+      "mode": "image",
+      "assetPath": "/media/images/human-hawkmoth.jpg",
+      "alt": "A hummingbird hawk moth feeding in flight"
+    },
+    "explanation": "A real photograph of a hummingbird hawk moth captured mid-flight by Charles J. Sharp, a Featured Picture on Wikimedia Commons.",
+    "source": {
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Hummingbird_hawk_moth_(Macroglossum_stellatarum)_in_flight.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Charles J. Sharp"
+    }
+  },
+  {
+    "id": "image-06",
+    "category": "image",
+    "isAI": true,
+    "prompt": "Human photo or AI art?",
+    "content": {
+      "mode": "image",
+      "assetPath": "/media/images/ai-future-airplane.jpg",
+      "alt": "A sleek futuristic airplane concept"
+    },
+    "explanation": "An AI-generated concept image of a futuristic airplane, created with Bing Image Creator and uploaded to Wikimedia Commons.",
+    "source": {
+      "name": "Wikimedia Commons (Category:AI-generated science fiction)",
+      "url": "https://commons.wikimedia.org/wiki/File:Airplane_of_the_future.jpg",
+      "license": "Public domain",
+      "author": "Bing Image Creator"
+    }
+  },
+  {
+    "id": "image-07",
+    "category": "image",
+    "isAI": false,
+    "prompt": "Human photo or AI art?",
+    "content": {
+      "mode": "image",
+      "assetPath": "/media/images/human-chameleon.jpg",
+      "alt": "A blue-legged chameleon on a branch"
+    },
+    "explanation": "A real photograph of a blue-legged chameleon in Ranomafana, Madagascar, taken by Charles J. Sharp.",
+    "source": {
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Blue-legged_chameleon_(Calumma_crypticum)_male_Ranomafana.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Charles J. Sharp"
+    }
+  },
+  {
+    "id": "image-08",
+    "category": "image",
+    "isAI": true,
+    "prompt": "Human photo or AI art?",
+    "content": {
+      "mode": "image",
+      "assetPath": "/media/images/ai-romantic-fantasy.jpg",
+      "alt": "A dreamlike romantic fantasy scene"
+    },
+    "explanation": "An AI-generated \"Romantic Fantasy\" style image made with DALL-E 3, uploaded to Wikimedia Commons as an example of a generic AI art style.",
+    "source": {
+      "name": "Wikimedia Commons (Category:AI-generated images by artstyle)",
+      "url": "https://commons.wikimedia.org/wiki/File:Generic_look_of_Romantic_Fantasy_-_made_with_DALL-E_3.jpg",
+      "license": "Public domain",
+      "author": "DALL-E 3 (uploader: WikiJunkie, Hebrew Wikipedia)"
+    }
+  },
+  {
+    "id": "image-09",
+    "category": "image",
+    "isAI": false,
+    "prompt": "Human photo or AI art?",
+    "content": {
+      "mode": "image",
+      "assetPath": "/media/images/human-agama.jpg",
+      "alt": "A roughtail rock agama lizard on a rock"
+    },
+    "explanation": "A real photograph of a roughtail rock agama, taken by Charles J. Sharp, a Featured Picture on Wikimedia Commons.",
+    "source": {
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Roughtail_rock_agama_(Stellagama_stellio_brachydactyla).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Charles J. Sharp"
+    }
+  },
+  {
+    "id": "image-10",
+    "category": "image",
+    "isAI": true,
+    "prompt": "Human photo or AI art?",
+    "content": {
+      "mode": "image",
+      "assetPath": "/media/images/ai-night-city.jpg",
+      "alt": "A stylized fantasy city skyline at night"
+    },
+    "explanation": "An AI-generated image titled \"Night 898\", a fantasy-past cityscape created with Midjourney and uploaded to Wikimedia Commons.",
+    "source": {
+      "name": "Wikimedia Commons (Category:AI-generated fantasy and mythology images)",
+      "url": "https://commons.wikimedia.org/wiki/File:%27Night_898%27_fantasy_past_city_by_Midjourney.jpg",
+      "license": "CC0",
+      "author": "Dennis Sylvester Hurd (Midjourney)"
+    }
+  }
+]

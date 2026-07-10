@@ -1,0 +1,172 @@
+[
+  {
+    "id": "text-01",
+    "category": "text",
+    "isAI": false,
+    "prompt": "Why do we still have SD TV channels when HD looks like SD on an old TV?",
+    "content": {
+      "mode": "text",
+      "text": "The way it works is that old TV stations got a certain amount of bandwidth to replace their old analog TV stations. However, HD takes up more bandwidth then SD - so the stations can choose between 2 or 3 HD stations, or like 7 or 8 SD stations (or a mix of both) They can do a bunch of SD stations and make more money in advertizing by running 7 or 8 different reruns of old SD TV shows at a time In fact, those stations often got permanent rights to show an unlimited number of reruns of old syndicated shows in perpetuity. That means they don't even have to pay anyone to air old eppisodes of Star Trek or Alf So basically it's free money for them, based on being around for a long, long time and having their old rights get upgraded as new technology comes out."
+    },
+    "explanation": "This is a real human answer from Reddit's r/explainlikeimfive, taken from the HC3 dataset. The loose structure, run-on sentences, and small typos (\"advertizing\", \"eppisodes\") are typical of an off-the-cuff human reply.",
+    "source": {
+      "name": "HC3 (Hello-SimpleAI/HC3), reddit_eli5 split",
+      "url": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
+      "license": "CC-BY-SA 4.0",
+      "author": "Hello-SimpleAI / Reddit contributor"
+    }
+  },
+  {
+    "id": "text-02",
+    "category": "text",
+    "isAI": true,
+    "prompt": "Why do we still have SD TV channels when HD looks like SD on an old TV?",
+    "content": {
+      "mode": "text",
+      "text": "There are a few reasons why we still have SD (standard definition) TV channels: \n1. Some people still use older TVs that are not compatible with HD (high definition) signals. These TVs can only display SD channels, so if we only had HD channels, those people wouldn't be able to watch TV. \n2. HD channels take up more bandwidth than SD channels, so it's not possible to have as many HD channels as we have SD channels. This means that if we only had HD channels, some channels might not be available. \n3. HD channels also require more expensive equipment to produce, so some TV stations might not be able to afford to upgrade to HD. \nOverall, it's important to have both SD and HD channels so that everyone can watch TV, regardless of what kind of TV they have or how much money they have."
+    },
+    "explanation": "This is ChatGPT's answer to the same question, from the HC3 dataset. Notice the tidy numbered structure and the balanced, slightly repetitive wrap-up sentence - a common pattern in AI-generated explanations.",
+    "source": {
+      "name": "HC3 (Hello-SimpleAI/HC3), reddit_eli5 split",
+      "url": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
+      "license": "CC-BY-SA 4.0",
+      "author": "Hello-SimpleAI / ChatGPT (gpt-3.5)"
+    }
+  },
+  {
+    "id": "text-03",
+    "category": "text",
+    "isAI": false,
+    "prompt": "Should I avoid credit card use to improve our debt-to-income ratio?",
+    "content": {
+      "mode": "text",
+      "text": "If you pay it off before the cycle closes it will look like you have 100% available credit. So if you credit card statement closes on the 7th pay it off on the 6th in full don't pay it when its due 2/3 weeks later. Then after three months of doing that your credit score will go up based on the fact that your debt ratio is so low. That ratio is 30% of your credit score. It will help quite alot."
+    },
+    "explanation": "A real answer from r/personalfinance in the HC3 dataset - terse, specific, and built around one concrete tactic rather than a general overview.",
+    "source": {
+      "name": "HC3 (Hello-SimpleAI/HC3), finance split",
+      "url": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
+      "license": "CC-BY-SA 4.0",
+      "author": "Hello-SimpleAI / Reddit contributor"
+    }
+  },
+  {
+    "id": "text-04",
+    "category": "text",
+    "isAI": true,
+    "prompt": "Should I avoid credit card use to improve our debt-to-income ratio?",
+    "content": {
+      "mode": "text",
+      "text": "It can be a good idea to avoid using credit cards if you are trying to improve your debt-to-income ratio. Your debt-to-income ratio is a measure of how much debt you have compared to your income. It is calculated by dividing your total monthly debt payments by your gross monthly income. A high debt-to-income ratio can make it more difficult to qualify for a loan or mortgage, as it may indicate to lenders that you are carrying too much debt relative to your income. One way to improve your debt-to-income ratio is to pay off your credit card balances. If you are able to pay off your credit card balances, it will reduce the amount of debt you have and, in turn, improve your debt-to-income ratio. Another option is to increase your income, which will also improve your debt-to-income ratio. It is important to note that credit cards can be a useful financial tool if used responsibly. They can help you build a good credit history, earn rewards, and have a convenient way to pay for purchases. However, it is important to use credit cards wisely and only charge what you can afford to pay off each month. If you are unable to pay off your credit card balances in full each month, it can be helpful to avoid using credit cards and focus on paying off your debt."
+    },
+    "explanation": "ChatGPT's answer to the same finance question, from HC3. It first defines the term being asked about, then lays out balanced options and closes with a caveat - a very typical AI-answer shape.",
+    "source": {
+      "name": "HC3 (Hello-SimpleAI/HC3), finance split",
+      "url": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
+      "license": "CC-BY-SA 4.0",
+      "author": "Hello-SimpleAI / ChatGPT (gpt-3.5)"
+    }
+  },
+  {
+    "id": "text-05",
+    "category": "text",
+    "isAI": false,
+    "prompt": "Is chest pain related to intake of clindamycin and oxycodone?",
+    "content": {
+      "mode": "text",
+      "text": "Hello, The use of Clindamycin can cause stomach pain or a hyperacidity of the stomach. So, I recommend using a medication to lower the acidity production such as Omeprazole daily. I also suggest using Maalox three times a day and avoid food that can trigger the symptoms such as spicy food. Hope I have answered your query. Let me know if I can assist you further. Take care Regards, Dr. Dorina Gurabardhi, General & Family Physician"
+    },
+    "explanation": "A real answer from a licensed physician on a medical Q&A forum, part of HC3's medicine split. The greeting, sign-off, and named credential at the end are hallmarks of a real doctor's reply.",
+    "source": {
+      "name": "HC3 (Hello-SimpleAI/HC3), medicine split",
+      "url": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
+      "license": "CC-BY-SA 4.0",
+      "author": "Hello-SimpleAI / Dr. Dorina Gurabardhi"
+    }
+  },
+  {
+    "id": "text-06",
+    "category": "text",
+    "isAI": true,
+    "prompt": "Is chest pain related to intake of clindamycin and oxycodone?",
+    "content": {
+      "mode": "text",
+      "text": "It is possible that chest pain could be related to the use of Clindamycin and Oxycodone. However, it is also important to consider other potential causes of chest pain, such as heart problems or other underlying health conditions. It is important to speak with a healthcare provider if you are experiencing chest pain, as this could be a serious issue that requires medical attention. In the meantime, you should follow the instructions of your healthcare provider and report any adverse effects to them. If you are experiencing difficulty breathing or severe chest pain, you should seek immediate medical attention."
+    },
+    "explanation": "ChatGPT's answer to the same medical question, from HC3. It hedges with \"it is possible\" / \"it is also important\", never commits to a diagnosis, and repeatedly redirects to a healthcare provider - a very characteristic AI safety pattern for medical questions.",
+    "source": {
+      "name": "HC3 (Hello-SimpleAI/HC3), medicine split",
+      "url": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
+      "license": "CC-BY-SA 4.0",
+      "author": "Hello-SimpleAI / ChatGPT (gpt-3.5)"
+    }
+  },
+  {
+    "id": "text-07",
+    "category": "text",
+    "isAI": false,
+    "prompt": "What are \"add ons\"?",
+    "content": {
+      "mode": "text",
+      "text": "Plug-in (computing), a piece of software which enhances another software application and usually cannot be run independently. Browser extension, which modifies the interface and/or behavior of web browsers. Add-on (Mozilla), a piece of software that enhances and customizes Mozilla-based applications. Add-ons for Firefox (addons.mozilla.org), the official Mozilla Foundation web site which serves as a repository of add-ons for Mozilla-based applications. Peripheral, an optional computer hardware component that significantly supplements or enhances the functionality of the original unit. Video game accessory, a piece of hardware used in conjunction with a video game console for playing video games."
+    },
+    "explanation": "A real human answer sourced from a Wikipedia-style disambiguation list (HC3's open_qa split) - it reads as a flat list of distinct definitions rather than a single synthesized explanation.",
+    "source": {
+      "name": "HC3 (Hello-SimpleAI/HC3), open_qa split",
+      "url": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
+      "license": "CC-BY-SA 4.0",
+      "author": "Hello-SimpleAI / Wikipedia contributor"
+    }
+  },
+  {
+    "id": "text-08",
+    "category": "text",
+    "isAI": true,
+    "prompt": "What are \"add ons\"?",
+    "content": {
+      "mode": "text",
+      "text": "Add-ons, also known as extensions or plug-ins, are small software programs that can be installed into a larger software application to add specific features or functionality. They are typically designed to enhance or customize the capabilities of the main application.\nAdd-ons can be used in a variety of software applications, including web browsers, productivity tools, and media players. For example, you might install an add-on in your web browser to block pop-up ads, or install an add-on in your productivity tool to add a new feature or integration with another service.\nAdd-ons can be installed through the main application's interface, or downloaded from the internet and installed manually. Some add-ons are free, while others may require a purchase or subscription fee."
+    },
+    "explanation": "ChatGPT's answer to the same question, from HC3. It opens with a single unified definition (\"also known as...\") before branching into examples - a synthesized explanation rather than a list of separate real-world terms.",
+    "source": {
+      "name": "HC3 (Hello-SimpleAI/HC3), open_qa split",
+      "url": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
+      "license": "CC-BY-SA 4.0",
+      "author": "Hello-SimpleAI / ChatGPT (gpt-3.5)"
+    }
+  },
+  {
+    "id": "text-09",
+    "category": "text",
+    "isAI": false,
+    "prompt": "Please explain what is \"Human intelligence\"",
+    "content": {
+      "mode": "text",
+      "text": "Human intelligence is the intellectual capability of humans, which is marked by complex cognitive feats and high levels of motivation and self-awareness. High intelligence is associated with better outcomes in life.\nThrough intelligence, humans possess the cognitive abilities to learn, form concepts, understand, apply logic and reason, including the capacities to recognize patterns, plan, innovate, solve problems, make decisions, retain information, and use language to communicate. There are conflicting ideas about how intelligence is measured, ranging from the idea that intelligence is fixed upon birth, or that it is malleable and can change depending on an individual's mindset and efforts. Several subcategories of intelligence, such as emotional intelligence or social intelligence, are heavily debated as to whether they are traditional forms of intelligence. They are generally thought to be distinct processes that occur, though there is speculation that they tie into traditional intelligence more than previously suspected."
+    },
+    "explanation": "This is the actual Wikipedia lead paragraph for \"Human intelligence\", part of HC3's wiki_csai split. Notice the dense, citation-style prose covering competing academic debates - a hallmark of an edited encyclopedia entry.",
+    "source": {
+      "name": "HC3 (Hello-SimpleAI/HC3), wiki_csai split",
+      "url": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
+      "license": "CC-BY-SA 4.0",
+      "author": "Hello-SimpleAI / Wikipedia contributors"
+    }
+  },
+  {
+    "id": "text-10",
+    "category": "text",
+    "isAI": true,
+    "prompt": "Please explain what is \"Human intelligence\"",
+    "content": {
+      "mode": "text",
+      "text": "Human intelligence is the mental ability to think, learn, and understand concepts. It is what enables us to process, analyze, and use information, as well as to reason, plan, solve problems, and make decisions. Intelligence is a complex and multifaceted concept that is difficult to define and measure, but it is generally considered to include a range of cognitive abilities such as verbal and mathematical aptitude, spatial awareness, memory, and problem-solving skills. Intelligence is an important aspect of human behavior that is thought to be influenced by a combination of genetic and environmental factors."
+    },
+    "explanation": "ChatGPT's answer to the same prompt, from HC3. It's shorter and more self-contained than the Wikipedia entry, defining the term cleanly without referencing any ongoing academic debate or citing specific researchers.",
+    "source": {
+      "name": "HC3 (Hello-SimpleAI/HC3), wiki_csai split",
+      "url": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
+      "license": "CC-BY-SA 4.0",
+      "author": "Hello-SimpleAI / ChatGPT (gpt-3.5)"
+    }
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "code-01",
+    "category": "code",
+    "isAI": false,
+    "prompt": "Binary search: find the insertion point for x in a sorted list a",
+    "content": {
+      "mode": "code",
+      "language": "python",
+      "text": "def bisect_left(a, x, lo=0, hi=None):\n    \"\"\"Return the index where to insert item x in list a, assuming a is sorted.\n\n    The return value i is such that all e in a[:i] have e < x, and all e in\n    a[i:] have e >= x.  So if x already appears in the list, a.insert(x) will\n    insert just before the leftmost x already there.\n\n    Optional args lo (default 0) and hi (default len(a)) bound the\n    slice of a to be searched.\n    \"\"\"\n\n    if lo < 0:\n        raise ValueError('lo must be non-negative')\n    if hi is None:\n        hi = len(a)\n    while lo < hi:\n        mid = (lo+hi)//2\n        if a[mid] < x: lo = mid+1\n        else: hi = mid\n    return lo"
+    },
+    "explanation": "This is the real `bisect_left` function from CPython's standard library (Lib/bisect.py). Note the terse one-line if/else bodies on the same line as the condition and the minimal spacing around `+` - a style choice that's stayed frozen since it was written in the early 2000s.",
+    "source": {
+      "name": "CPython standard library, Lib/bisect.py (3.6 branch)",
+      "url": "https://github.com/python/cpython/blob/3.6/Lib/bisect.py",
+      "license": "PSF License",
+      "author": "Python Software Foundation"
+    }
+  },
+  {
+    "id": "code-02",
+    "category": "code",
+    "isAI": true,
+    "prompt": "Binary search: find the insertion point for x in a sorted list a",
+    "content": {
+      "mode": "code",
+      "language": "python",
+      "text": "def find_insertion_point(sorted_list, target):\n    \"\"\"\n    Find the index at which `target` should be inserted into `sorted_list`\n    to keep it sorted in ascending order.\n\n    If `target` already exists in the list, the returned index will be\n    to the left of the first matching element.\n    \"\"\"\n    left, right = 0, len(sorted_list)\n\n    while left < right:\n        middle = (left + right) // 2\n        if sorted_list[middle] < target:\n            left = middle + 1\n        else:\n            right = middle\n\n    return left"
+    },
+    "explanation": "Written fresh for this game to solve the same binary-search-insertion-point task. Notice the descriptive variable names (`sorted_list`, `target`, `middle`) and the fully expanded if/else block on separate lines - a more verbose, explanatory style typical of AI-generated code.",
+    "source": {
+      "name": "AI-generated for this game",
+      "url": null,
+      "license": null,
+      "author": "Claude (Anthropic)"
+    }
+  },
+  {
+    "id": "code-03",
+    "category": "code",
+    "isAI": false,
+    "prompt": "Split an array into chunks of a given size",
+    "content": {
+      "mode": "code",
+      "language": "javascript",
+      "text": "/**\n * Creates an array of elements split into groups the length of `size`.\n * If `array` can't be split evenly, the final chunk will be the remaining\n * elements.\n *\n * @static\n * @memberOf _\n * @since 3.0.0\n * @category Array\n * @param {Array} array The array to process.\n * @param {number} [size=1] The length of each chunk\n * @param- {Object} [guard] Enables use as an iteratee for methods like `_.map`.\n * @returns {Array} Returns the new array of chunks.\n * @example\n *\n * _.chunk(['a', 'b', 'c', 'd'], 2);\n * // => [['a', 'b'], ['c', 'd']]\n *\n * _.chunk(['a', 'b', 'c', 'd'], 3);\n * // => [['a', 'b', 'c'], ['d']]\n */\nfunction chunk(array, size, guard) {\n  if ((guard ? isIterateeCall(array, size, guard) : size === undefined)) {\n    size = 1;\n  } else {\n    size = nativeMax(toInteger(size), 0);\n  }\n  var length = array == null ? 0 : array.length;\n  if (!length || size < 1) {\n    return [];\n  }\n  var index = 0,\n      resIndex = 0,\n      result = Array(nativeCeil(length / size));\n\n  while (index < length) {\n    result[resIndex++] = baseSlice(array, index, (index += size));\n  }\n  return result;\n}\n\nexport default chunk;"
+    },
+    "explanation": "This is the real `chunk` function from lodash's source (debounce/chunk.js). It calls internal helpers like `baseSlice`, `isIterateeCall`, and `nativeMax` that are imported from other files in the library - a giveaway that this snippet is one piece of a much larger, mature codebase rather than a self-contained script.",
+    "source": {
+      "name": "lodash, chunk.js (4.17.21-es tag)",
+      "url": "https://github.com/lodash/lodash/blob/4.17.21-es/chunk.js",
+      "license": "MIT License",
+      "author": "OpenJS Foundation and lodash contributors"
+    }
+  },
+  {
+    "id": "code-04",
+    "category": "code",
+    "isAI": true,
+    "prompt": "Split an array into chunks of a given size",
+    "content": {
+      "mode": "code",
+      "language": "javascript",
+      "text": "/**\n * Splits an array into smaller arrays (\"chunks\") of a given size.\n * The final chunk may be smaller if the array doesn't divide evenly.\n *\n * @param {Array} items - The array to split up.\n * @param {number} chunkSize - How many items per chunk.\n * @returns {Array[]} An array of chunks.\n */\nfunction chunkArray(items, chunkSize) {\n  if (chunkSize <= 0) {\n    throw new Error('chunkSize must be greater than 0');\n  }\n\n  const chunks = [];\n  for (let i = 0; i < items.length; i += chunkSize) {\n    chunks.push(items.slice(i, i + chunkSize));\n  }\n\n  return chunks;\n}"
+    },
+    "explanation": "Written fresh for this game to solve the same chunking task. It's fully self-contained (no external helper imports), uses modern `const`/`let` and a `for` loop with a clear increment step, and throws an explicit error for invalid input rather than silently coercing it - a common AI habit of adding defensive validation even when not strictly asked for.",
+    "source": {
+      "name": "AI-generated for this game",
+      "url": null,
+      "license": null,
+      "author": "Claude (Anthropic)"
+    }
+  },
+  {
+    "id": "code-05",
+    "category": "code",
+    "isAI": false,
+    "prompt": "Shuffle a list in place (Fisher-Yates shuffle)",
+    "content": {
+      "mode": "code",
+      "language": "python",
+      "text": "def shuffle(self, x, random=None):\n    \"\"\"Shuffle list x in place, and return None.\n\n    Optional argument random is a 0-argument function returning a\n    random float in [0.0, 1.0); if it is the default None, the\n    standard random.random will be used.\n\n    \"\"\"\n\n    if random is None:\n        randbelow = self._randbelow\n        for i in reversed(range(1, len(x))):\n            # pick an element in x[:i+1] with which to exchange x[i]\n            j = randbelow(i+1)\n            x[i], x[j] = x[j], x[i]\n    else:\n        _int = int\n        for i in reversed(range(1, len(x))):\n            # pick an element in x[:i+1] with which to exchange x[i]\n            j = _int(random() * (i+1))\n            x[i], x[j] = x[j], x[i]"
+    },
+    "explanation": "This is the real `shuffle` method from CPython's `random.Random` class. It's a method (takes `self`), branches on whether a custom `random` callable was supplied, and caches `self._randbelow` / `int` into local variables purely as a micro-optimization - a level of low-level performance tuning that's characteristic of standard-library code.",
+    "source": {
+      "name": "CPython standard library, Lib/random.py (3.6 branch)",
+      "url": "https://github.com/python/cpython/blob/3.6/Lib/random.py",
+      "license": "PSF License",
+      "author": "Python Software Foundation"
+    }
+  },
+  {
+    "id": "code-06",
+    "category": "code",
+    "isAI": true,
+    "prompt": "Shuffle a list in place (Fisher-Yates shuffle)",
+    "content": {
+      "mode": "code",
+      "language": "python",
+      "text": "import random\n\ndef shuffle_in_place(items):\n    \"\"\"\n    Randomly reorder the elements of `items` in place using the\n    Fisher-Yates shuffle algorithm.\n    \"\"\"\n    for i in range(len(items) - 1, 0, -1):\n        j = random.randint(0, i)\n        items[i], items[j] = items[j], items[i]"
+    },
+    "explanation": "Written fresh for this game to solve the same shuffling task. It's a plain module-level function that reaches for the standard `random.randint` directly instead of hand-optimizing with cached local references - simpler and more \"textbook\" than the standard library's own internal implementation.",
+    "source": {
+      "name": "AI-generated for this game",
+      "url": null,
+      "license": null,
+      "author": "Claude (Anthropic)"
+    }
+  },
+  {
+    "id": "code-07",
+    "category": "code",
+    "isAI": false,
+    "prompt": "Recursively flatten a nested array up to a given depth",
+    "content": {
+      "mode": "code",
+      "language": "javascript",
+      "text": "/**\n * Recursively flatten `array` up to `depth` times.\n *\n * @static\n * @memberOf _\n * @since 4.4.0\n * @category Array\n * @param {Array} array The array to flatten.\n * @param {number} [depth=1] The maximum recursion depth.\n * @returns {Array} Returns the new flattened array.\n * @example\n *\n * var array = [1, [2, [3, [4]], 5]];\n *\n * _.flattenDepth(array, 1);\n * // => [1, 2, [3, [4]], 5]\n *\n * _.flattenDepth(array, 2);\n * // => [1, 2, 3, [4], 5]\n */\nfunction flattenDepth(array, depth) {\n  var length = array == null ? 0 : array.length;\n  if (!length) {\n    return [];\n  }\n  depth = depth === undefined ? 1 : toInteger(depth);\n  return baseFlatten(array, depth);\n}\n\nexport default flattenDepth;"
+    },
+    "explanation": "This is the real `flattenDepth` function from lodash. The public function itself is almost trivial - it just validates input and immediately delegates the actual recursive work to an internal `baseFlatten` helper defined in a separate file, a common pattern in mature libraries that keep public APIs thin.",
+    "source": {
+      "name": "lodash, flattenDepth.js (4.17.21-es tag)",
+      "url": "https://github.com/lodash/lodash/blob/4.17.21-es/flattenDepth.js",
+      "license": "MIT License",
+      "author": "OpenJS Foundation and lodash contributors"
+    }
+  },
+  {
+    "id": "code-08",
+    "category": "code",
+    "isAI": true,
+    "prompt": "Recursively flatten a nested array up to a given depth",
+    "content": {
+      "mode": "code",
+      "language": "javascript",
+      "text": "/**\n * Flattens a nested array, recursing up to `depth` levels deep.\n *\n * @param {Array} array - The (possibly nested) array to flatten.\n * @param {number} [depth=1] - How many levels of nesting to flatten.\n * @returns {Array} A new, flattened array.\n */\nfunction flatten(array, depth = 1) {\n  if (depth < 1) {\n    return array.slice();\n  }\n\n  return array.reduce((result, item) => {\n    if (Array.isArray(item)) {\n      result.push(...flatten(item, depth - 1));\n    } else {\n      result.push(item);\n    }\n    return result;\n  }, []);\n}"
+    },
+    "explanation": "Written fresh for this game to solve the same flattening task. It's a single self-contained function using `reduce` and the spread operator, with a modern default parameter (`depth = 1`) - no separate internal helper file or library-wide conventions to plug into, since there's no larger library around it.",
+    "source": {
+      "name": "AI-generated for this game",
+      "url": null,
+      "license": null,
+      "author": "Claude (Anthropic)"
+    }
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "voice-01",
+    "category": "voice",
+    "isAI": false,
+    "prompt": "Human voice or AI voice?",
+    "content": {
+      "mode": "audio",
+      "assetPath": "/media/audio/human-gods-world.mp3"
+    },
+    "explanation": "A real human recording: LibriVox volunteer reader PaulClayton reading Edna St. Vincent Millay's poem \"God's World\".",
+    "source": {
+      "name": "LibriVox, Short Poetry Collection 277",
+      "url": "https://librivox.org/short-poetry-collection-277-by-various/",
+      "license": "Public Domain",
+      "author": "Reader: PaulClayton"
+    }
+  },
+  {
+    "id": "voice-02",
+    "category": "voice",
+    "isAI": true,
+    "prompt": "Human voice or AI voice?",
+    "content": {
+      "mode": "tts",
+      "text": "The world stands out on either side no wider than the heart is wide; above the world is stretched the sky, no higher than the soul is high."
+    },
+    "explanation": "This line was synthesized live by your browser's built-in text-to-speech engine - a genuine synthetic voice, not a recording.",
+    "source": {
+      "name": "Browser SpeechSynthesis API",
+      "url": null,
+      "license": null,
+      "author": "Your browser's built-in TTS engine"
+    }
+  },
+  {
+    "id": "voice-03",
+    "category": "voice",
+    "isAI": false,
+    "prompt": "Human voice or AI voice?",
+    "content": {
+      "mode": "audio",
+      "assetPath": "/media/audio/human-just-think.mp3"
+    },
+    "explanation": "A real human recording: LibriVox volunteer reader Bruce Kachuk reading Robert W. Service's poem \"Just Think!\".",
+    "source": {
+      "name": "LibriVox, Short Poetry Collection 277",
+      "url": "https://librivox.org/short-poetry-collection-277-by-various/",
+      "license": "Public Domain",
+      "author": "Reader: Bruce Kachuk"
+    }
+  },
+  {
+    "id": "voice-04",
+    "category": "voice",
+    "isAI": true,
+    "prompt": "Human voice or AI voice?",
+    "content": {
+      "mode": "tts",
+      "text": "Just think! Some night the stars will gleam upon a cold gray stone, and trace a name with silver beam, and lo! 'twill be your own."
+    },
+    "explanation": "This line was synthesized live by your browser's built-in text-to-speech engine - a genuine synthetic voice, not a recording.",
+    "source": {
+      "name": "Browser SpeechSynthesis API",
+      "url": null,
+      "license": null,
+      "author": "Your browser's built-in TTS engine"
+    }
+  },
+  {
+    "id": "voice-05",
+    "category": "voice",
+    "isAI": false,
+    "prompt": "Human voice or AI voice?",
+    "content": {
+      "mode": "audio",
+      "assetPath": "/media/audio/human-loiseau-bleu.mp3"
+    },
+    "explanation": "A real human recording: LibriVox volunteer reader Winston Tharp reading Mary Coleridge's poem \"L'oiseau bleu\".",
+    "source": {
+      "name": "LibriVox, Short Poetry Collection 277",
+      "url": "https://librivox.org/short-poetry-collection-277-by-various/",
+      "license": "Public Domain",
+      "author": "Reader: Winston Tharp"
+    }
+  },
+  {
+    "id": "voice-06",
+    "category": "voice",
+    "isAI": true,
+    "prompt": "Human voice or AI voice?",
+    "content": {
+      "mode": "tts",
+      "text": "The lake lay blue below the hill, o'er it, as I looked, there flew across the waters, cold and still, a bird whose wings were palest blue."
+    },
+    "explanation": "This line was synthesized live by your browser's built-in text-to-speech engine - a genuine synthetic voice, not a recording.",
+    "source": {
+      "name": "Browser SpeechSynthesis API",
+      "url": null,
+      "license": null,
+      "author": "Your browser's built-in TTS engine"
+    }
+  },
+  {
+    "id": "voice-07",
+    "category": "voice",
+    "isAI": false,
+    "prompt": "Human voice or AI voice?",
+    "content": {
+      "mode": "audio",
+      "assetPath": "/media/audio/human-meditations.mp3"
+    },
+    "explanation": "A real human recording: LibriVox volunteer reader minneapolis reading a verse from Marcus Aurelius's \"Meditations\".",
+    "source": {
+      "name": "LibriVox, Short Poetry Collection 277",
+      "url": "https://librivox.org/short-poetry-collection-277-by-various/",
+      "license": "Public Domain",
+      "author": "Reader: minneapolis"
+    }
+  },
+  {
+    "id": "voice-08",
+    "category": "voice",
+    "isAI": true,
+    "prompt": "Human voice or AI voice?",
+    "content": {
+      "mode": "tts",
+      "text": "From my grandfather Verus I learned good morals and the government of my temper."
+    },
+    "explanation": "This line was synthesized live by your browser's built-in text-to-speech engine - a genuine synthetic voice, not a recording.",
+    "source": {
+      "name": "Browser SpeechSynthesis API",
+      "url": null,
+      "license": null,
+      "author": "Your browser's built-in TTS engine"
+    }
+  },
+  {
+    "id": "voice-09",
+    "category": "voice",
+    "isAI": false,
+    "prompt": "Human voice or AI voice?",
+    "content": {
+      "mode": "audio",
+      "assetPath": "/media/audio/human-a-prayer.mp3"
+    },
+    "explanation": "A real human recording: LibriVox volunteer reader Winston Tharp reading Alfred Noyes's poem \"A Prayer\".",
+    "source": {
+      "name": "LibriVox, Short Poetry Collection 277",
+      "url": "https://librivox.org/short-poetry-collection-277-by-various/",
+      "license": "Public Domain",
+      "author": "Reader: Winston Tharp"
+    }
+  },
+  {
+    "id": "voice-10",
+    "category": "voice",
+    "isAI": true,
+    "prompt": "Human voice or AI voice?",
+    "content": {
+      "mode": "tts",
+      "text": "Not for one single day could I ever go back and see, a way through the woodland, out of the world with thee."
+    },
+    "explanation": "This line was synthesized live by your browser's built-in text-to-speech engine - a genuine synthetic voice, not a recording.",
+    "source": {
+      "name": "Browser SpeechSynthesis API",
+      "url": null,
+      "license": null,
+      "author": "Your browser's built-in TTS engine"
+    }
+  }
+]
