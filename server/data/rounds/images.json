@@ -286,5 +286,113 @@
       "license": "CC BY-SA 4.0",
       "author": "Anishda"
     }
+  },
+  {
+    "id": "image-17",
+    "category": "image",
+    "isAI": false,
+    "prompt": "Human illustration or AI art?",
+    "content": {
+      "mode": "image",
+      "assetPath": "/media/images/human-genyornis.jpg",
+      "alt": "A drawing of Genyornis, a giant flightless bird"
+    },
+    "explanation": "A real hand-drawn paleoart illustration of Genyornis newtoni, a giant flightless \"thunder bird\", by paleoartist Nobu Tamura, uploaded to Wikimedia Commons.",
+    "source": {
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Genyornis_BW.jpg",
+      "license": "CC BY 3.0",
+      "author": "Nobu Tamura"
+    }
+  },
+  {
+    "id": "image-18",
+    "category": "image",
+    "isAI": true,
+    "prompt": "Human illustration or AI art?",
+    "content": {
+      "mode": "image",
+      "assetPath": "/media/images/ai-dragon-babel.jpg",
+      "alt": "A painterly illustration of a dragon coiled around a tower"
+    },
+    "explanation": "An AI-generated dragon illustration created with DALL-E 3, uploaded to Wikimedia Commons.",
+    "source": {
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Dalle-3_Dragon.jpg",
+      "license": "CC BY 4.0",
+      "author": "DALL-E 3 (uploader: Hugo en résidence)"
+    }
+  },
+  {
+    "id": "image-19",
+    "category": "image",
+    "isAI": false,
+    "prompt": "Human illustration or AI art?",
+    "content": {
+      "mode": "image",
+      "assetPath": "/media/images/human-liliensternus.jpg",
+      "alt": "A drawing of Liliensternus chasing a pterosaur"
+    },
+    "explanation": "A real hand-drawn paleoart illustration of Liliensternus liliensterni chasing a pterosaur, by paleoartist Nobu Tamura, uploaded to Wikimedia Commons.",
+    "source": {
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Liliensternus_NT.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Nobu Tamura"
+    }
+  },
+  {
+    "id": "image-20",
+    "category": "image",
+    "isAI": true,
+    "prompt": "Human illustration or AI art?",
+    "content": {
+      "mode": "image",
+      "assetPath": "/media/images/ai-castle-dragon.png",
+      "alt": "A painterly illustration of a dark castle with a dragon overhead"
+    },
+    "explanation": "An AI-generated illustration of a dark castle with a dragon, created with Midjourney v4 and uploaded to Wikimedia Commons.",
+    "source": {
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Midjourney_-_Dark_Castle_with_Dragon.png",
+      "license": "CC BY-SA 4.0",
+      "author": "Midjourney (uploader: Chikorita)"
+    }
+  },
+  {
+    "id": "image-21",
+    "category": "image",
+    "isAI": false,
+    "prompt": "Human illustration or AI art?",
+    "content": {
+      "mode": "image",
+      "assetPath": "/media/images/human-limusaurus.jpg",
+      "alt": "A drawing of Limusaurus, a beaked ceratosaur dinosaur"
+    },
+    "explanation": "A real hand-drawn paleoart illustration of Limusaurus inextricabilis, a beaked ceratosaur, by paleoartist Nobu Tamura, uploaded to Wikimedia Commons.",
+    "source": {
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Limusaurus_inextricabilis.jpg",
+      "license": "CC BY 3.0",
+      "author": "Nobu Tamura"
+    }
+  },
+  {
+    "id": "image-22",
+    "category": "image",
+    "isAI": true,
+    "prompt": "Human illustration or AI art?",
+    "content": {
+      "mode": "image",
+      "assetPath": "/media/images/ai-gold-dragon.webp",
+      "alt": "A painterly illustration of a golden dragon"
+    },
+    "explanation": "An AI-generated illustration of a gold dragon, created with Stable Diffusion and uploaded to Wikimedia Commons.",
+    "source": {
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Gold_Dragon_Illustration_by_Stable_Diffusionn.webp",
+      "license": "CC0",
+      "author": "Stable Diffusion"
+    }
   }
 ]

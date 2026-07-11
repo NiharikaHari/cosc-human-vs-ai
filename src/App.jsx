@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { fetchRounds } from "./api.js";
+import { getDeviceId } from "./utils/device.js";
 import StartScreen from "./components/StartScreen.jsx";
 import RoundScreen from "./components/RoundScreen.jsx";
 import EndScreen from "./components/EndScreen.jsx";
@@ -9,6 +10,7 @@ import SourcesPage from "./components/SourcesPage.jsx";
 function App() {
   const [screen, setScreen] = useState("start");
   const [name, setName] = useState(() => localStorage.getItem("human-vs-ai-name") || "");
+  const [deviceId] = useState(() => getDeviceId());
   const [rounds, setRounds] = useState([]);
   const [roundIndex, setRoundIndex] = useState(0);
   const [score, setScore] = useState(0);
@@ -37,6 +39,10 @@ function App() {
     }
   }
 
+  function returnHome() {
+    setScreen("start");
+  }
+
   function handleCorrectGuess() {
     setScore((current) => current + 1);
   }
@@ -56,7 +62,7 @@ function App() {
   }
 
   return (
-    <main className="app">
+    <main className={screen === "start" ? "app app--start" : "app"}>
       {screen === "start" && (
         <StartScreen
           name={name}
@@ -64,10 +70,9 @@ function App() {
           onStart={startGame}
           onViewLeaderboard={() => setOverlay("leaderboard")}
           onViewSources={() => setOverlay("sources")}
+          loadError={loadError}
         />
       )}
-
-      {screen === "start" && loadError && <p className="error-text">{loadError}</p>}
 
       {screen === "round" && rounds.length > 0 && (
         <RoundScreen
@@ -85,13 +90,15 @@ function App() {
           score={score}
           totalRounds={roundsAttempted}
           outcome={outcome}
+          deviceId={deviceId}
           onPlayAgain={startGame}
           onViewLeaderboard={() => setOverlay("leaderboard")}
           onViewSources={() => setOverlay("sources")}
+          onReturnHome={returnHome}
         />
       )}
 
-      {overlay === "leaderboard" && <Leaderboard onClose={() => setOverlay(null)} />}
+      {overlay === "leaderboard" && <Leaderboard onClose={() => setOverlay(null)} deviceId={deviceId} />}
       {overlay === "sources" && <SourcesPage onClose={() => setOverlay(null)} />}
     </main>
   );

@@ -27,11 +27,16 @@ export async function fetchLeaderboard(limit = 10) {
   return handleResponse(res, "Couldn't load the leaderboard.");
 }
 
-export async function submitScore({ name, score, totalRounds }) {
+export async function submitScore({ name, score, totalRounds, deviceId }) {
   const res = await fetch("/api/leaderboard", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ name, score, totalRounds }),
+    body: JSON.stringify({ name, score, totalRounds, deviceId }),
   });
   return handleResponse(res, "Couldn't submit your score. Try again.");
+}
+
+export async function fetchPersonalBest(deviceId) {
+  const res = await fetch(`/api/leaderboard/best?deviceId=${encodeURIComponent(deviceId)}`);
+  return handleResponse(res, "Couldn't load your best score.");
 }

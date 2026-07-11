@@ -16,6 +16,13 @@ function validateEntry(body) {
     return "Total rounds must be a non-negative integer.";
   }
   if (score > totalRounds) return "Score can't exceed the total number of rounds.";
+
+  if (body.deviceId !== undefined && body.deviceId !== null) {
+    if (typeof body.deviceId !== "string" || body.deviceId.trim().length === 0 || body.deviceId.length > 64) {
+      return "Invalid device ID.";
+    }
+  }
+
   return null;
 }
 
@@ -30,6 +37,17 @@ router.get("/", (req, res) => {
   res.json(sorted.slice(0, effectiveLimit));
 });
 
+router.get("/best", (req, res) => {
+  const deviceId = typeof req.query.deviceId === "string" ? req.query.deviceId.trim() : "";
+  if (!deviceId) return res.json({ best: null });
+
+  const mine = db.data.leaderboard.filter((entry) => entry.deviceId === deviceId);
+  if (mine.length === 0) return res.json({ best: null });
+
+  const top = mine.reduce((max, entry) => (entry.score > max.score ? entry : max));
+  res.json({ best: { score: top.score, totalRounds: top.totalRounds, createdAt: top.createdAt } });
+});
+
 router.post("/", async (req, res) => {
   const body = req.body ?? {};
   const validationError = validateEntry(body);
@@ -40,6 +58,7 @@ router.post("/", async (req, res) => {
     name: body.name.trim(),
     score: body.score,
     totalRounds: body.totalRounds,
+    deviceId: typeof body.deviceId === "string" ? body.deviceId.trim() : null,
     createdAt: new Date().toISOString(),
   };
 

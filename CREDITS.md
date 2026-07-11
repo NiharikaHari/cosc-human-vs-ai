@@ -65,6 +65,12 @@ on Wikimedia Commons under `Category:AI-generated images`.
 | ai-serpent-lotan.png | AI art (Midjourney) | Midjourney | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Lotan,_a_serpent_with_seven_heads,_by_Midjourney.png) |
 | ai-blue-fairy.jpg | AI art | Andrew Pertsev | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Blue_Fairy.jpg) |
 | ai-dragon-art.png | AI art | Anishda | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Dragon_AI_art.png) |
+| human-genyornis.jpg | Illustration | Nobu Tamura | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Genyornis_BW.jpg) |
+| human-liliensternus.jpg | Illustration | Nobu Tamura | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Liliensternus_NT.jpg) |
+| human-limusaurus.jpg | Illustration | Nobu Tamura | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Limusaurus_inextricabilis.jpg) |
+| ai-dragon-babel.jpg | AI art (DALL-E 3) | Hugo en résidence | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Dalle-3_Dragon.jpg) |
+| ai-castle-dragon.png | AI art (Midjourney v4) | Chikorita | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Midjourney_-_Dark_Castle_with_Dragon.png) |
+| ai-gold-dragon.webp | AI art (Stable Diffusion) | Stable Diffusion | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Gold_Dragon_Illustration_by_Stable_Diffusionn.webp) |
 
 ## Voice (server/data/rounds/voice.json, server/data/assets/audio/)
 
