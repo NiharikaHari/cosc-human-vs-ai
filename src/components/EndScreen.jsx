@@ -66,16 +66,16 @@ function EndScreen({
           )}
           {submitted && isNewHighScore && <p className="new-high-score">New High Score!</p>}
           <div className="end-actions">
-            <button type="button" onClick={onPlayAgain}>
+            <button type="button" className="btn-primary" onClick={onPlayAgain}>
               Play Again
             </button>
             <button type="button" onClick={onViewLeaderboard}>
               View Leaderboard
             </button>
-            <button type="button" onClick={onViewSources}>
+            <button type="button" className="btn-ghost" onClick={onViewSources}>
               Sources & Credits
             </button>
-            <button type="button" onClick={onReturnHome}>
+            <button type="button" className="btn-ghost" onClick={onReturnHome}>
               Return to Home
             </button>
           </div>

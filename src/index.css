@@ -172,6 +172,20 @@ button:focus-visible {
   box-shadow: var(--glow-cyan);
 }
 
+.btn-ghost {
+  background: transparent;
+  border-color: var(--border-strong);
+  color: var(--text-muted);
+  box-shadow: none;
+}
+
+.btn-ghost:hover:not(:disabled) {
+  background: var(--panel-alt);
+  border-color: var(--text-muted);
+  color: var(--text);
+  box-shadow: none;
+}
+
 /* ===== START SCREEN SHELL ===== */
 
 /* ===== HERO / START SCREEN ===== */
