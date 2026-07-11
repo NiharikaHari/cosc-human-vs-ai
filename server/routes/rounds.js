@@ -4,8 +4,15 @@ import { getSessionRounds, getSources } from "../data/rounds/index.js";
 const router = Router();
 
 router.get("/", (req, res) => {
-  const count = Number.parseInt(req.query.count, 10);
-  const rounds = getSessionRounds(Number.isFinite(count) && count > 0 ? count : 12);
+  const countParam = req.query.count;
+  let count = 12;
+  if (countParam === "all") {
+    count = "all";
+  } else {
+    const parsed = Number.parseInt(countParam, 10);
+    if (Number.isFinite(parsed) && parsed > 0) count = parsed;
+  }
+  const rounds = getSessionRounds(count);
   res.json(rounds);
 });
 

@@ -6,14 +6,14 @@ import EndScreen from "./components/EndScreen.jsx";
 import Leaderboard from "./components/Leaderboard.jsx";
 import SourcesPage from "./components/SourcesPage.jsx";
 
-const GAME_LENGTH = 12;
-
 function App() {
   const [screen, setScreen] = useState("start");
   const [name, setName] = useState(() => localStorage.getItem("human-vs-ai-name") || "");
   const [rounds, setRounds] = useState([]);
   const [roundIndex, setRoundIndex] = useState(0);
   const [score, setScore] = useState(0);
+  const [roundsAttempted, setRoundsAttempted] = useState(0);
+  const [outcome, setOutcome] = useState(null);
   const [loadError, setLoadError] = useState(null);
   const [overlay, setOverlay] = useState(null);
 
@@ -25,10 +25,12 @@ function App() {
   async function startGame() {
     setLoadError(null);
     try {
-      const sessionRounds = await fetchRounds(GAME_LENGTH);
+      const sessionRounds = await fetchRounds();
       setRounds(sessionRounds);
       setRoundIndex(0);
       setScore(0);
+      setRoundsAttempted(0);
+      setOutcome(null);
       setScreen("round");
     } catch (err) {
       setLoadError(err.message);
@@ -39,11 +41,17 @@ function App() {
     setScore((current) => current + 1);
   }
 
-  function handleAdvance() {
-    if (roundIndex + 1 >= rounds.length) {
+  function handleAdvance(wasCorrect) {
+    const attempted = roundIndex + 1;
+    setRoundsAttempted(attempted);
+    if (!wasCorrect) {
+      setOutcome("wrong");
+      setScreen("end");
+    } else if (attempted >= rounds.length) {
+      setOutcome("clear");
       setScreen("end");
     } else {
-      setRoundIndex((current) => current + 1);
+      setRoundIndex(attempted);
     }
   }
 
@@ -75,7 +83,8 @@ function App() {
         <EndScreen
           name={name}
           score={score}
-          totalRounds={rounds.length}
+          totalRounds={roundsAttempted}
+          outcome={outcome}
           onPlayAgain={startGame}
           onViewLeaderboard={() => setOverlay("leaderboard")}
           onViewSources={() => setOverlay("sources")}

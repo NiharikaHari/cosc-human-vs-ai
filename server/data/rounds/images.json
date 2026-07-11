@@ -178,5 +178,113 @@
       "license": "CC0",
       "author": "Dennis Sylvester Hurd (Midjourney)"
     }
+  },
+  {
+    "id": "image-11",
+    "category": "image",
+    "isAI": false,
+    "prompt": "Human illustration or AI art?",
+    "content": {
+      "mode": "image",
+      "assetPath": "/media/images/human-baryonyx.jpg",
+      "alt": "A pencil drawing of Baryonyx, a spinosaurid dinosaur"
+    },
+    "explanation": "A real pencil-drawn paleoart illustration of Baryonyx walkeri by paleoartist Nobu Tamura, hand-drawn and uploaded to Wikimedia Commons.",
+    "source": {
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Baryonyx_BW.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Nobu Tamura"
+    }
+  },
+  {
+    "id": "image-12",
+    "category": "image",
+    "isAI": true,
+    "prompt": "Human illustration or AI art?",
+    "content": {
+      "mode": "image",
+      "assetPath": "/media/images/ai-serpent-lotan.png",
+      "alt": "A painterly illustration of a seven-headed serpent"
+    },
+    "explanation": "An AI-generated illustration of Lotan, the seven-headed serpent of Canaanite myth, created with Midjourney and uploaded to Wikimedia Commons.",
+    "source": {
+      "name": "Wikimedia Commons (Category:AI-generated fantasy and mythology images)",
+      "url": "https://commons.wikimedia.org/wiki/File:Lotan,_a_serpent_with_seven_heads,_by_Midjourney.png",
+      "license": "Public domain",
+      "author": "Midjourney"
+    }
+  },
+  {
+    "id": "image-13",
+    "category": "image",
+    "isAI": false,
+    "prompt": "Human illustration or AI art?",
+    "content": {
+      "mode": "image",
+      "assetPath": "/media/images/human-elasmosaurus.jpg",
+      "alt": "A painted illustration of Elasmosaurus swimming"
+    },
+    "explanation": "A real hand-drawn paleoart illustration of Elasmosaurus platyurus swimming, by paleoartist Nobu Tamura, uploaded to Wikimedia Commons.",
+    "source": {
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Elasmosaurus_NT.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Nobu Tamura"
+    }
+  },
+  {
+    "id": "image-14",
+    "category": "image",
+    "isAI": true,
+    "prompt": "Human illustration or AI art?",
+    "content": {
+      "mode": "image",
+      "assetPath": "/media/images/ai-blue-fairy.jpg",
+      "alt": "A blue-toned fantasy illustration of a fairy figure"
+    },
+    "explanation": "An AI-generated fantasy artwork titled \"Blue Fairy\", uploaded to Wikimedia Commons under a CC0 public domain dedication.",
+    "source": {
+      "name": "Wikimedia Commons (Category:AI-generated fantasy and mythology images)",
+      "url": "https://commons.wikimedia.org/wiki/File:Blue_Fairy.jpg",
+      "license": "CC0",
+      "author": "Andrew Pertsev"
+    }
+  },
+  {
+    "id": "image-15",
+    "category": "image",
+    "isAI": false,
+    "prompt": "Human illustration or AI art?",
+    "content": {
+      "mode": "image",
+      "assetPath": "/media/images/human-umoonasaurus.jpg",
+      "alt": "A pencil drawing of Umoonasaurus, a small plesiosaur"
+    },
+    "explanation": "A real pencil-drawn paleoart illustration of Umoonasaurus demoscyllus by paleoartist Nobu Tamura, hand-drawn and uploaded to Wikimedia Commons.",
+    "source": {
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Umoonasaurus_BW.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Nobu Tamura"
+    }
+  },
+  {
+    "id": "image-16",
+    "category": "image",
+    "isAI": true,
+    "prompt": "Human illustration or AI art?",
+    "content": {
+      "mode": "image",
+      "assetPath": "/media/images/ai-dragon-art.png",
+      "alt": "A painterly illustration of a dragon"
+    },
+    "explanation": "An AI-generated dragon illustration uploaded to Wikimedia Commons under a CC BY-SA license.",
+    "source": {
+      "name": "Wikimedia Commons (Category:AI-generated dragons)",
+      "url": "https://commons.wikimedia.org/wiki/File:Dragon_AI_art.png",
+      "license": "CC BY-SA 4.0",
+      "author": "Anishda"
+    }
   }
 ]

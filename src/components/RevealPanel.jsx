@@ -1,4 +1,4 @@
-function RevealPanel({ round, wasCorrect, onNext, isLastRound }) {
+function RevealPanel({ round, wasCorrect, onNext, isGameOver }) {
   return (
     <div className="reveal-panel" aria-live="assertive">
       <p className={wasCorrect ? "reveal-correct" : "reveal-incorrect"}>
@@ -11,8 +11,8 @@ function RevealPanel({ round, wasCorrect, onNext, isLastRound }) {
         {round.source.author ? ` - ${round.source.author}` : ""}
         {round.source.license ? ` (${round.source.license})` : ""}
       </p>
-      <button type="button" onClick={onNext}>
-        {isLastRound ? "See final score" : "Next round"}
+      <button type="button" className="btn-primary" onClick={onNext}>
+        {isGameOver ? "See final score" : "Next round"}
       </button>
     </div>
   );

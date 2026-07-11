@@ -2,6 +2,7 @@
   {
     "id": "text-01",
     "category": "text",
+    "pairId": "text-sd-tv",
     "isAI": false,
     "prompt": "Why do we still have SD TV channels when HD looks like SD on an old TV?",
     "content": {
@@ -19,6 +20,7 @@
   {
     "id": "text-02",
     "category": "text",
+    "pairId": "text-sd-tv",
     "isAI": true,
     "prompt": "Why do we still have SD TV channels when HD looks like SD on an old TV?",
     "content": {
@@ -36,6 +38,7 @@
   {
     "id": "text-03",
     "category": "text",
+    "pairId": "text-credit-card",
     "isAI": false,
     "prompt": "Should I avoid credit card use to improve our debt-to-income ratio?",
     "content": {
@@ -53,6 +56,7 @@
   {
     "id": "text-04",
     "category": "text",
+    "pairId": "text-credit-card",
     "isAI": true,
     "prompt": "Should I avoid credit card use to improve our debt-to-income ratio?",
     "content": {
@@ -70,6 +74,7 @@
   {
     "id": "text-05",
     "category": "text",
+    "pairId": "text-clindamycin",
     "isAI": false,
     "prompt": "Is chest pain related to intake of clindamycin and oxycodone?",
     "content": {
@@ -87,6 +92,7 @@
   {
     "id": "text-06",
     "category": "text",
+    "pairId": "text-clindamycin",
     "isAI": true,
     "prompt": "Is chest pain related to intake of clindamycin and oxycodone?",
     "content": {
@@ -104,6 +110,7 @@
   {
     "id": "text-07",
     "category": "text",
+    "pairId": "text-addons",
     "isAI": false,
     "prompt": "What are \"add ons\"?",
     "content": {
@@ -121,6 +128,7 @@
   {
     "id": "text-08",
     "category": "text",
+    "pairId": "text-addons",
     "isAI": true,
     "prompt": "What are \"add ons\"?",
     "content": {
@@ -138,6 +146,7 @@
   {
     "id": "text-09",
     "category": "text",
+    "pairId": "text-human-intelligence",
     "isAI": false,
     "prompt": "Please explain what is \"Human intelligence\"",
     "content": {
@@ -155,6 +164,7 @@
   {
     "id": "text-10",
     "category": "text",
+    "pairId": "text-human-intelligence",
     "isAI": true,
     "prompt": "Please explain what is \"Human intelligence\"",
     "content": {

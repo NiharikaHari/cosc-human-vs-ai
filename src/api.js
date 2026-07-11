@@ -12,7 +12,7 @@ async function handleResponse(res, fallbackMessage) {
   return res.json();
 }
 
-export async function fetchRounds(count = 12) {
+export async function fetchRounds(count = "all") {
   const res = await fetch(`/api/rounds?count=${count}`);
   return handleResponse(res, "Couldn't load rounds. Is the server running?");
 }

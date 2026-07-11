@@ -40,7 +40,9 @@ disguised copy of the human code.
 ## Images & artwork (server/data/rounds/images.json, server/data/assets/images/)
 
 Human photos are real wildlife photographs, all Featured Pictures on Wikimedia
-Commons by photographer **Charles J. Sharp**, licensed CC BY-SA 4.0.
+Commons by photographer **Charles J. Sharp**, licensed CC BY-SA 4.0. Human
+illustrations are real hand-drawn paleoart by illustrator **Nobu Tamura**,
+licensed CC BY-SA 3.0.
 
 AI images are real AI-generated art already published (and categorized as such)
 on Wikimedia Commons under `Category:AI-generated images`.
@@ -52,11 +54,17 @@ on Wikimedia Commons under `Category:AI-generated images`.
 | human-hawkmoth.jpg | Photo | Charles J. Sharp | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hummingbird_hawk_moth_(Macroglossum_stellatarum)_in_flight.jpg) |
 | human-chameleon.jpg | Photo | Charles J. Sharp | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Blue-legged_chameleon_(Calumma_crypticum)_male_Ranomafana.jpg) |
 | human-agama.jpg | Photo | Charles J. Sharp | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Roughtail_rock_agama_(Stellagama_stellio_brachydactyla).jpg) |
+| human-baryonyx.jpg | Illustration | Nobu Tamura | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Baryonyx_BW.jpg) |
+| human-elasmosaurus.jpg | Illustration | Nobu Tamura | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Elasmosaurus_NT.jpg) |
+| human-umoonasaurus.jpg | Illustration | Nobu Tamura | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Umoonasaurus_BW.jpg) |
 | ai-greenwood-city.jpg | AI art (Midjourney) | Dennis Sylvester Hurd | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:%27Greenwood_Estates_Vista_City%27_by_Midjourney.jpg) |
 | ai-night-city.jpg | AI art (Midjourney) | Dennis Sylvester Hurd | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:%27Night_898%27_fantasy_past_city_by_Midjourney.jpg) |
 | ai-mars-dome.jpg | AI art (DALL-E 3) | Raresvent | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:A_city_on_Mars_under_a_glass_dome_with_forests,_fields,_lakes,_houses.jpg) |
 | ai-future-airplane.jpg | AI art (Bing Image Creator) | Bing Image Creator | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Airplane_of_the_future.jpg) |
 | ai-romantic-fantasy.jpg | AI art (DALL-E 3) | WikiJunkie (he.wikipedia) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Generic_look_of_Romantic_Fantasy_-_made_with_DALL-E_3.jpg) |
+| ai-serpent-lotan.png | AI art (Midjourney) | Midjourney | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Lotan,_a_serpent_with_seven_heads,_by_Midjourney.png) |
+| ai-blue-fairy.jpg | AI art | Andrew Pertsev | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Blue_Fairy.jpg) |
+| ai-dragon-art.png | AI art | Anishda | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Dragon_AI_art.png) |
 
 ## Voice (server/data/rounds/voice.json, server/data/assets/audio/)
 

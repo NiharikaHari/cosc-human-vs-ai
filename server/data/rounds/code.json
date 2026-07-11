@@ -2,6 +2,7 @@
   {
     "id": "code-01",
     "category": "code",
+    "pairId": "code-binary-search",
     "isAI": false,
     "prompt": "Binary search: find the insertion point for x in a sorted list a",
     "content": {
@@ -20,6 +21,7 @@
   {
     "id": "code-02",
     "category": "code",
+    "pairId": "code-binary-search",
     "isAI": true,
     "prompt": "Binary search: find the insertion point for x in a sorted list a",
     "content": {
@@ -38,6 +40,7 @@
   {
     "id": "code-03",
     "category": "code",
+    "pairId": "code-chunk-array",
     "isAI": false,
     "prompt": "Split an array into chunks of a given size",
     "content": {
@@ -56,6 +59,7 @@
   {
     "id": "code-04",
     "category": "code",
+    "pairId": "code-chunk-array",
     "isAI": true,
     "prompt": "Split an array into chunks of a given size",
     "content": {
@@ -74,6 +78,7 @@
   {
     "id": "code-05",
     "category": "code",
+    "pairId": "code-fisher-yates",
     "isAI": false,
     "prompt": "Shuffle a list in place (Fisher-Yates shuffle)",
     "content": {
@@ -92,6 +97,7 @@
   {
     "id": "code-06",
     "category": "code",
+    "pairId": "code-fisher-yates",
     "isAI": true,
     "prompt": "Shuffle a list in place (Fisher-Yates shuffle)",
     "content": {
@@ -110,6 +116,7 @@
   {
     "id": "code-07",
     "category": "code",
+    "pairId": "code-flatten-array",
     "isAI": false,
     "prompt": "Recursively flatten a nested array up to a given depth",
     "content": {
@@ -128,6 +135,7 @@
   {
     "id": "code-08",
     "category": "code",
+    "pairId": "code-flatten-array",
     "isAI": true,
     "prompt": "Recursively flatten a nested array up to a given depth",
     "content": {

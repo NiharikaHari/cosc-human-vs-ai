@@ -64,16 +64,24 @@ ledger (also available live in-app via the Sources page).
   [HC3 dataset](https://huggingface.co/datasets/Hello-SimpleAI/HC3).
 - **Code**: real snippets from open-source projects (CPython, lodash) paired
   with snippets genuinely written by Claude for this game.
-- **Images & artwork**: real wildlife photography vs real AI art, both sourced
-  from Wikimedia Commons (including its own `AI-generated images` category).
+- **Images & artwork**: real wildlife photography and real hand-drawn paleoart
+  illustration vs real AI art, all sourced from Wikimedia Commons (including
+  its own `AI-generated images` category).
 - **Voice**: real public-domain readings from LibriVox vs the browser's own
   `SpeechSynthesis` API, used live at play time so no synthetic audio needs to
   be hosted at all.
 
 ## How a round is picked
 
-`GET /api/rounds?count=12` samples `count/4` rounds from each category's pool
-and interleaves them round-robin, so a session touches all four categories
-and never repeats a category twice in a row. Every round's `isAI`,
+The game is endless: `GET /api/rounds?count=all` returns the entire shuffled
+pool (every category's rounds, interleaved round-robin so a session touches
+all four categories and never repeats a category twice in a row), and the
+client plays through it round by round until you guess wrong - your streak
+of correct answers is your score. Since content isn't repeated within a
+session, the longest possible streak is capped at the pool size (currently
+~24 rounds across all categories); clearing the whole pool without a miss
+ends the game as a "Perfect Clear." A fixed-size sample is still available
+via `GET /api/rounds?count=<n>`, which samples `count/4` rounds from each
+category's pool, for any future non-endless mode. Every round's `isAI`,
 `explanation`, and `source` are sent to the client up front - the UI just
 doesn't render them until you've guessed.

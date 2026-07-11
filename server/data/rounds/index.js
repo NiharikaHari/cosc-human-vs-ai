@@ -33,12 +33,27 @@ function shuffled(array) {
   return result;
 }
 
+// Groups rounds that share a pairId (e.g. the human- and AI-written answers to
+// the same underlying question) so a session only ever surfaces one variant
+// of a given question, never both.
+function groupByPair(pool) {
+  const groups = new Map();
+  for (const round of pool) {
+    const key = round.pairId ?? round.id;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(round);
+  }
+  return [...groups.values()];
+}
+
 export function getSessionRounds(count = 12) {
-  const perCategory = Math.max(1, Math.round(count / CATEGORIES.length));
+  const perCategory =
+    count === "all" ? Infinity : Math.max(1, Math.round(count / CATEGORIES.length));
 
   const picks = CATEGORIES.map((category) => {
-    const pool = shuffled(pools[category]);
-    return pool.slice(0, Math.min(perCategory, pool.length));
+    const groups = shuffled(groupByPair(pools[category]));
+    const chosenGroups = groups.slice(0, Math.min(perCategory, groups.length));
+    return chosenGroups.map((group) => group[Math.floor(Math.random() * group.length)]);
   });
 
   const maxLength = Math.max(...picks.map((p) => p.length));
